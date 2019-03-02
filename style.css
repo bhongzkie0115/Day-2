@@ -1,0 +1,70 @@
+/*set default margins and padding*/
+body{
+	padding:0px;
+	margin: 0px;
+	background-color: white;
+	font-size: 16px;
+	font-family: calibri, arial;
+}
+/*this is to remove the bullets*/
+#nav-list{
+	list-style-type: none;
+	overflow:hidden;
+	margin: 0px;
+	font-family: Arial;
+	font-size: 23px;
+	background-color: gray;
+	}
+/*to float the list item to the left*/
+li{
+		text-align: center;
+		color: white;
+}
+#facebook{
+	font-size: 50px;
+}
+a{
+	padding: 10px;
+	text-decoration: None;
+	color:black;
+}
+a:hover {
+	font-size: 20px;
+	font-style: oblique;
+	}
+.image-area{
+	background-image: url(bg1.jpg);
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	width: 1500px;
+			}
+.image-text {
+	text-align: center;
+	color: blue;
+	font-size: 10.5rem;
+	font-family: 'Permanent Marker', cursive;
+	}
+.cards{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	width: 300px;
+	margin-bottom: 15px;
+	justify-content: center;
+	border: 1px solid gray;
+	box-shadow:10px 10px 10px gray; 
+	}
+.services {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (min-width:700px){
+	#nav-list li {
+		float: right;
+		}
+ 
+ 
